@@ -6,7 +6,7 @@
 BUG__FIX__LOGs
 
 
-过了几乎3天 终于在电脑编译完成了，学好 grep sed xargs 这三个非常重要！Makefile的编写！
+过了几乎3天 终于在电脑编译完成了
 
 1. bochs 的 安装
 	源代码编译， ./congiure 
@@ -111,3 +111,4 @@ MORE： https://gcc.gnu.org/onlinedocs/gcc-4.8.5/gcc/Optimize-Options.html#index
 
 
 
+最后这个代码还更改了进程调度的一些代码，关键是改成了单一 tss 切换，这也算是一种实践了
