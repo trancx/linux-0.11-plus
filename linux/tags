@@ -1,7 +1,7 @@
 BUG__FIX__LOGs
 
 
-过了几乎3天 终于在电脑编译完成了，学好 grep sed xargs 这三个非常重要！Makefile的编写！
+过了几乎3天 终于在电脑编译完成了
 
 1. bochs 的 安装
 	源代码编译， ./congiure 
@@ -55,7 +55,7 @@ BUG__FIX__LOGs
 
 	
 	这个其实很快就可以修改过来，但是很多的优化的错误，这里必须得提到，首先是 
-	-02 的优化
+	-O2 的优化
 -O
 -O1
     Optimize. Optimizing compilation takes somewhat more time, and a lot more memory for a large function. 
@@ -65,7 +65,7 @@ BUG__FIX__LOGs
 
  MROE： https://gcc.gnu.org/onlinedocs/gcc-4.8.5/gcc/Optimize-Options.html#index-O0-737
 
- -freorder-blocks  -freorder-functions 关键是02会出现这两个优化，这两个会把函数的.text段改名字，
+ -freorder-blocks  -freorder-functions 关键是O2会出现这两个优化，这两个会把函数的.text段改名字，
 
 -freorder-functions
     Reorder functions in the object file in order to improve code locality. This is implemented by using special subsections .text.hot for most frequently executed functions and .text.unlikely for unlikely executed functions. Reordering is done by the linker so object file format must support named sections and linker must place them in a reasonable way.
